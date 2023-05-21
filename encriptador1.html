@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    </head>
+    <body id="lock" background="background.jpg">
+        <header class="titles">Encriptador de Texto</header>
+            <header id="header1">Protege tus mensajes con encriptación</header>
+        <di>
+            <ul>
+                <li class="instructions">🔤 Utiliza solo letras minúsculas</li>
+                <li class="instructions">💲 No utilices letras con acentos ni caracteres especiales</li>
+                <li class="instructions">🔓 Puedes encriptar, desencriptar y limpiar tu texto</li>   
+            </ul>
+        </di>
+        <div>
+            <textarea type="text" id="message" required placeholder="Ingresa tu texto"></textarea>
+            <p id="input" class="text-light"></p>
+            <script type="text/javascript" src="encriptador.js"></script>
+        </div>
+        <div>
+            <textarea type="text" id="messageTwo"></textarea>
+            <p id="output" class="text-light"></p>
+            <script type="text/javascript" src="encriptador.js"></script>
+        </div>
+        <div>
+            <button type="button" onclick="encriptando ()" id="buttonE">Encriptar</button>
+            <button type="button" onclick="desencriptando ()" id="buttonD">Desencriptar</button>
+            <button type="button" onclick="copy ()" id="buttonCopy">Copiar</button>
+            <button type="button" onclick="javascript:buttonClean()" id="buttonClean">Limpiar</button>                      
+        </div>
+        <footer>
+        <p class="copyright">&#169 Emilú Jiménez - 2023</p>
+        </footer>
+    </body>

@@ -1,0 +1,114 @@
+#lock{
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header{
+    height: 100px;
+}
+.titles{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: start;
+    color: teal;
+    padding: 30px 0 0 0;
+    margin: 0 0 30px 150px;
+    ;
+}
+#header1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: start;
+    color: black;
+    margin: 0 0 -50px 150px
+}
+body{
+    background-color: ghostwhite;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+}
+h1{
+    margin-top: 30px;
+    text-align: left;
+}
+.instructions{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: start;
+    color: rgb(185, 185, 197);
+    margin: 0 0 0 150px;
+}
+#message, #messageTwo{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    float: left;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+#message{
+    margin: 70px 20px 30px 150px;
+    
+}
+#messageTwo{
+    margin: 70px 150px 30px 330px;
+}
+button{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+    font-size: bold;
+    font-size: 15px;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+#buttonE{
+    margin: 10px 20px 50px 250px;
+    background-color: ghostwhite;
+}
+#buttonD{
+    margin: 10px 20px 50px 10px;
+    background-color: ghostwhite;
+}
+#buttonCopy{
+    margin: 10px 20px 50px 550px;
+    background-color: #A4D6D6;
+}
+#buttonClean{
+    margin: 10px 20px 50px 10px;
+    background-color: #A4D6D6;
+}
+#buttonE:hover{
+    background: rgb(213, 213, 217);
+    transition: 1s all;
+}
+#buttonD:hover{
+    background: rgb(213, 213, 217);
+    transition: 1s all;
+}
+#buttonCopy:hover{
+    background: #BCEDED;
+    transition: 1s all;
+}
+#buttonClean:hover{
+    background: #BCEDED;
+    transition: 1s all;
+}
+footer{
+    height: 4rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    margin: 80px 0 0 750px;
+}
